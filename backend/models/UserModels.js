@@ -13,7 +13,7 @@ const User = db.define('users', {
 
 export default User;
 
-//berfungsi untuk mengenerate table jika tabel user tidak terdapat di database
+//berfungsi untuk menggenerate table jika tabel user tidak terdapat di database
 (async() => {
     await db.sync();
 }) ();

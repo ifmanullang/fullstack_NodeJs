@@ -26,7 +26,7 @@ const deleteUser = async (id) => {
   return (
    <div className="columns mt-5 is-centered">
     <div className="column is-half">
-        <Link to = {`add`} className="button is-primary">Add New</Link>
+        <Link to = {`add`} className="button is-primary">Add New User</Link>
        <table className='table is-striped is-fullwidth'>
         <thead>
             <tr>
